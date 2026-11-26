@@ -7,9 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit;
 }
 
-
-if ($_SERVER)["REQUEST_METHOD"] !==
-
 // 1. Ambil data dan bersihkan spasi di awal atau akhire
 $no_anggota    = isset($_POST["no_anggota"]) ? trim($_POST["no_anggota"]) : "";
 $nama_lengkap  = isset($_POST["nama_lengkap"]) ? trim($_POST["nama_lengkap"]) : "";
